@@ -1,0 +1,19 @@
+PROJEK RIZKYTECH-SPK - CHANGELOG
+
+v0.1 (24-11-2025) - Pembuatan Projek, Repo Github dan Dokumentasi
+- pembuatan Projek RIZKYTECH-SPK Dengan Laravel 12
+- Pembuatan Repo Github RIZKYTECH-SPK
+- Pembuatan Dokuemntasi README dan CHANGELOG
+Berkas terdampak:
+- README.md
+- ChangeLog.txt
+- Seluruh File Laravel baru di buat
+Penulis: Rizky Ramadhan (Developer), ChatGPT (Projek Manajer)
+
+
+Catatan Penulisan / Konvensi 
+- Setiap entri mendatang HARUS menyertakan: Versi, Tanggal, Point Ringkasan, Berkas yang terdampak, Inisial Penulis.
+
+Kontributor
+- Rizky Ramadhan (Developer)
+- ChatGPT (Projek Manajer)
