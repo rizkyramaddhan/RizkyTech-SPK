@@ -7,12 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-======================== GAMBARAN APLIKASI =============================
+## GAMBARAN APLIKASI
 Sistem RizkyTech ini bertujuan mendukung operasi PPIC: perencanaan produksi, perencanaan kebutuhan bahan (MRP), pengendalian persediaan, pembuatan Work Order (SPK kerja produksi), penjadwalan, pelacakan status produksi, quality control, dan modul keputusan (SPK) untuk prioritisasi produksi atau alokasi bahan mengunakan metode SAW.
 
 Hasil Akhir : aplikasi web responsif di Laptop dan android, Keamanan yang Standarisasi, Mudah di maintenance dan Dokumentasi lengkap
 
-======================== SUSUNAN TEKNIS ================================
+## SUSUNAN TEKNIS
 Backend	: Laravel 12, Gunakan Service layer + Repository untuk pemisahan concern.
 Frontend: CSS native, vanilla JS + progressive enhancement.
 Auth	: Laravel Sanctum atau cookie-based HttpOnly session.
@@ -21,7 +21,7 @@ DevOps	: CI GitHub untuk linting, testing, migration; staging & prod; env config
 Security: CSRF, rate limiting, CSP, validation, role-based access control (RBAC).
 Observability: Logging , error tracking , audits (who changed apa)
 
-======================== MODUL & FITUR UTAMA ===========================
+## MODUL & FITUR UTAMA
 1. Authentication & RBAC
 	Login, logout, reset password, 2FA (opsional).
 	Roles: Admin, PPIC Planner, Production Supervisor, Warehouse, QC, 	Purchasing, Viewer.
@@ -63,7 +63,7 @@ Observability: Logging , error tracking , audits (who changed apa)
 	Notifikasi via email / in-app (websocket optional).
 	API endpoints untuk integrasi ERP/SCM atau MES.
 
-======================== ARSITETKTUR DATABASE ===========================
+## ARSITETKTUR DATABASE
 1. users (id, name, email, password, role_id, active, created_at)
 2. roles (id, name)
 3. permissions (id, name); role_permission pivot
@@ -81,7 +81,7 @@ Observability: Logging , error tracking , audits (who changed apa)
 18. mrp_runs (id, run_at, params_json, results_json)
 19. decision_cases (id, name, inputs_json, method, result_json)
 
-======================== FLOW PROSES  ===================================
+## FLOW PROSES
 1. Planner masukkan MPS (target produksi).
 2. Jalankan MRP → sistem menghitung kebutuhan material    berdasarkan BOM, stock on-hand, open PO, safety stock.
 3. Sistem mengeluarkan rekomendasi PO & WO.
@@ -91,10 +91,10 @@ Observability: Logging , error tracking , audits (who changed apa)
 7. QC inspeksi → hasil tersimpan.
 8. Data kembali ke MRP & laporan KPI.
 
-======================== METODE SPK  ====================================
+## METODE SPK
 Mengunakan SAW
 
-======================== STRUKTUR PROJEK ================================
+## STRUKTUR PROJEK
 /app
   /Http
     /Controllers
@@ -116,7 +116,7 @@ Mengunakan SAW
   Feature
   Unit
 
-======================== DOKUMENTASI ====================================
+## DOKUMENTASI
 1. Dokumentasi (outline lengkap)
 2. Overview & Goals
 3. System Architecture (component diagram)
