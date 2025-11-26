@@ -1,6 +1,6 @@
 PROJEK RIZKYTECH-SPK - CHANGELOG
 
-v0.1 (24-11-2025) - Pembuatan Projek, Repo Github dan Dokumentasi
+v0.1 (24-11-2025 23:07) - Pembuatan Projek, Repo Github dan Dokumentasi
 - pembuatan Projek RIZKYTECH-SPK Dengan Laravel 12
 - Pembuatan Repo Github RIZKYTECH-SPK
 - Pembuatan Dokuemntasi README dan CHANGELOG
@@ -8,6 +8,39 @@ Berkas terdampak:
 - README.md
 - ChangeLog.txt
 - Seluruh File Laravel baru di buat
+Penulis: Rizky Ramadhan (Developer), ChatGPT (Projek Manajer)
+
+v0.2 (24-11-2025 23:30) - pembuatan migration
+- Pembuatan Migration Database
+- Inisialisasi Migration Database 2025_11_24_160438_create_products_table.php dan 2025_11_24_160532_create_materials_table.php
+- Inisialisasi APP_NAME : RIZKYTECH-SPK
+- Migration Database ke MYSQL
+Berkas terdampak:
+- 2025_11_24_160438_create_products_table.php
+- 2025_11_24_160532_create_materials_table.php
+- 2025_11_24_160602_create_boms_table.php
+- 2025_11_24_160636_create_bom_items_table.php
+- .env
+Penulis: Rizky Ramadhan (Developer), ChatGPT (Projek Manajer)
+
+v0.2.1 (25-11-2025 11:18) - pembuatan layouting
+- memebuat layouting content untuk autentifikasi
+Berkas terdampak:
+- views/layout/auth.blade.php
+- views/layout/body/footer.blade.php
+- views/layout/body/sidebar.blade.php
+Penulis: Rizky Ramadhan (Developer), ChatGPT (Projek Manajer)
+
+v0.2.2 (26-11-2025 10:59) - migration database & UI test Dasbord
+- migration database dan relation model product, material, Bom, BomItem
+- pembuatan controller PPIC 
+Berkas terdampak:
+- app/Http/controller/api/PPICDashboardController.php
+- app/Http/models/Bom.php
+- app/Http/models/BomItem.php
+- app/Http/models/Materials.php
+- app/Http/models/Product.php
+- views/ppic/dashboard.blade.php
 Penulis: Rizky Ramadhan (Developer), ChatGPT (Projek Manajer)
 
 
